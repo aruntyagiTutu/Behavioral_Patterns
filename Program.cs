@@ -6,7 +6,12 @@ namespace behavioral_patterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("");
+
+            Template_Client.SomeCustomer customer = new Template_Client.SomeCustomer();
+            //customer.OrderPizza();
+
+            customer.OrderItalianPizza();
         }
     }
 }
